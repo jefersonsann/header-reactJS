@@ -1,0 +1,25 @@
+.header__menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.header__menuItem a {
+  color: var(--colorText);
+  font-size: 1.3rem;
+  opacity: 0.7;
+}
+.header__menuItem a:hover {
+  opacity: 1;
+}
+.header__menuItem a::after {
+  display: block;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+.header__menuItem a:hover::after {
+  width: 100%;
+  background-color: var(--colorText);
+}

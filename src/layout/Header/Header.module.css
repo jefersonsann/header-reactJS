@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--colorHeader);
+  color: var(--colorText);
+}
+.header .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+.header__logo {
+  font-size: 3rem;
+  color: var(--colorText);
+  transform: scale(0.9);
+}
+.header__logo:hover {
+  transform: scale(1);
+}
